@@ -1,7 +1,7 @@
 # Hercules
-Spring Boot Apache Camel | Kafka Prject
+Spring Boot Apache Camel | Kafka Project
 
-## Mac
+## Mac OS
 
 ### Zookeeper Start Up
 ```
