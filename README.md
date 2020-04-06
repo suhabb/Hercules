@@ -38,4 +38,12 @@ Spring Boot Apache Camel | Kafka Prject
  jdbc:postgresql://localhost:5432/localDB
  
  Table :  Items
-```
+ CREATE TABLE ITEMS (
+     ITEM_I SERIAL,
+     SKU TEXT NOT NULL,
+     ITEM_DESCRIPTION TEXT DEFAULT NULL,
+     PRICE NUMERIC (5,2),
+     CRTE_TS TIMESTAMPTZ NULL DEFAULT current_timestamp
+);
+
+select * from items;```
